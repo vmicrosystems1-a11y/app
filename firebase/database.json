@@ -1,0 +1,33 @@
+{
+  "irrigation": {
+    "clock": {
+      "serverProbe": 0,
+      "timezone": "Asia/Kolkata"
+    },
+    "controls": {
+      "autoMode": false,
+      "valveOn": false
+    },
+    "device": {
+      "date": "",
+      "email": "esp32@dripcontroller.com",
+      "lastSeen": 0,
+      "online": false,
+      "time": "",
+      "timestamp": 0,
+      "heartbeatTimeoutMs": 45000,
+      "valveActual": false
+    },
+    "schedule": {
+      "eveningEnabled": true,
+      "eveningOff": "18:00",
+      "eveningOn": "17:30",
+      "morningEnabled": true,
+      "morningOff": "06:30",
+      "morningOn": "06:00"
+    },
+    "sensors": {
+      "soilMoisture": 0
+    }
+  }
+}
